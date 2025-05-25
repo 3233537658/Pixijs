@@ -9,9 +9,9 @@
         height: document.documentElement.clientHeight
     });
     document.getElementById('app').appendChild(app.view);//div
-    let loader = PIXI.loader.add('ordylan', './atlases/atlases.json');//OD.json你的json
-    var skinwidth = 5000;//这里写一个自适应,要换成皮肤长宽
-    var skinheight = 5000;//原理很简单,一点小学数学知识+平面直角坐标系知识即可
+    let loader = PIXI.loader.add('ordylan', './atlases/时无忧-夜糜花欲燃.json');//OD.json你的json
+    var skinwidth = 2865 * 2;//这里写一个自适应,要换成皮肤长宽
+    var skinheight = 2017 * 2;//原理很简单,一点小学数学知识+平面直角坐标系知识即可
     var beishu1 = document.documentElement.clientWidth / skinwidth;//2个缩放比例
     var beishu2 = document.documentElement.clientHeight / skinheight;//理解成相似图形即可
     if (beishu1 > beishu2) {//比较选小的,防止出屏幕
